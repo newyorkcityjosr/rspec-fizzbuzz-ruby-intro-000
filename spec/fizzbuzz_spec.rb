@@ -1,6 +1,5 @@
 
 require_relative '../fizzbuzz.rb'
-require 'rspec'
 # We are missing a 'require_relative' here. Check README.md for instructions and an explanation!
 
 describe "fizzbuzz" do
