@@ -1,5 +1,6 @@
 
 require_relative '../fizzbuzz.rb'
+require 'rspec'
 # We are missing a 'require_relative' here. Check README.md for instructions and an explanation!
 
 describe "fizzbuzz" do
@@ -21,6 +22,6 @@ describe "fizzbuzz" do
   it 'returns nil when the number is not divisible by 3 or 5' do
     fizz_4 = fizzbuzz(4)
 
-    expect(fizz_4).to eq("nil")
+    expect(fizz_4).to eq(nil)
   end
 end
